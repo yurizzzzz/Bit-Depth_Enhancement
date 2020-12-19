@@ -59,3 +59,5 @@ if __name__ == '__main__':
     # 循环遍历训练数据和标签数据
     for step, (batch_x, batch_y) in enumerate(tqdm(trainImg)):
         print(batch_x)
+
+        
