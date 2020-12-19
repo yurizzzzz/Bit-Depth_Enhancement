@@ -23,3 +23,4 @@ for index in bar:
 end = time()
 cost = end - begin
 print('Run time: ', cost)
+
