@@ -12,3 +12,5 @@ for i in data:
     img = Image.open('E:/MITdataset/'+i)
     img = center_crop_(img)
     img.save('E:/label(1024x1024)/'+i)
+
+    
