@@ -78,3 +78,5 @@ if __name__ == '__main__':
         input_data = input_data.detach().cpu()
         result = torch.cat((input_data, output_data), 2)
         vutils.save_image(result, args.results_dir + '/' + img)
+
+        
