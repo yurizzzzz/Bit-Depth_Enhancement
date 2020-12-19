@@ -28,6 +28,8 @@ After training,save the checkpoint.tar file which contains the model parameter a
 ![image](https://user-images.githubusercontent.com/52614278/102685509-2dcf2600-421c-11eb-8848-d2a57ebabe1f.png)
 
 ## Results
+- The loss, PSNR, SSIM
+![Result](https://user-images.githubusercontent.com/52614278/102685758-d336c980-421d-11eb-92eb-11fd2e89a612.png)
 
 ## Contact me
 - [CSDN BLOG-Mr.Van](https://blog.csdn.net/qq_43711697)
