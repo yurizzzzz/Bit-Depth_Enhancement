@@ -15,6 +15,9 @@ The task of bit depth enhancement is to recover the significant bits lost by qua
 - A GPU with 4GB memory minimum
 - Keep the batch-size of 2(or higher) and train images cropped to 256x256
 
+## Quantilize
+Before the training,the dataset must be preprocessed.In the Preprocess folder,there are two methods to quantilize the images.One is based on Kmeans,another is linearly quantiliztion.And,the linear quantilizing is recommended.Therefore,you can run the Quantilize.py to get the low bit-depth images
+
 ## Train
 In the code, we use the MITAdobe FiveK as the dataset.And, the fiveK images are divided into training data and validation data.Then,the training data are cropped to 256x256 and the validation data are cropped to 512x512(if the size of images is too large,it will consume a lot of memory of GPU so that the machine may report RuntimeError:CUDA out of memory).Before run the training.py,please change the args such as,batch_size,model_dir,train_dir,test_dir,label_dir
 ![QQ截图20201219162906](https://user-images.githubusercontent.com/52614278/102684910-7b955f80-4217-11eb-8e3f-819c11d6f8f9.png)
