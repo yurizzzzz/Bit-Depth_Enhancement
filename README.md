@@ -16,7 +16,7 @@ The task of bit depth enhancement is to recover the significant bits lost by qua
 - Keep the batch-size of 2(or higher) and train images cropped to 256x256
 
 ## Quantilize
-Before the training,the dataset must be preprocessed.In the Preprocess folder,there are two methods to quantilize the images.One is based on Kmeans,another is linearly quantiliztion.And,the linear quantilizing is recommended.Therefore,you can run the Quantilize.py to get the low bit-depth images.
+Before the training,the dataset must be preprocessed.In the Preprocess folder,there are two methods to quantilize the images.One is based on Kmeans,the other is linear quantiliztion.And,the linear quantilizing is recommended.Therefore,you can run the Quantilize.py to get the low bit-depth images.
 ![image](https://user-images.githubusercontent.com/52614278/102685285-81407480-421a-11eb-87e4-326159d10f41.png)
 
 ## Train
