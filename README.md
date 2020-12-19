@@ -24,4 +24,5 @@ In the code, we use the MITAdobe FiveK as the dataset.And, the fiveK images are 
 ![QQ截图20201219162906](https://user-images.githubusercontent.com/52614278/102684910-7b955f80-4217-11eb-8e3f-819c11d6f8f9.png)
 
 ## Test
-After training,save the checkpoint.tar file which contains the model parameter and variables.What's more,test data are also needed.In the code, Sintel datasets are downloaded as the test data
+After training,save the checkpoint.tar file which contains the model parameter and variables.What's more,test data are also needed.In the code, Sintel datasets are downloaded as the test data.Of course,do not forget to change the args
+![image](https://user-images.githubusercontent.com/52614278/102685509-2dcf2600-421c-11eb-8848-d2a57ebabe1f.png)
