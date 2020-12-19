@@ -95,3 +95,5 @@ class Model(nn.Module):
         result = img + input_img
 
         return result
+
+    
