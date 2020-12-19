@@ -243,3 +243,5 @@ if __name__ == '__main__':
                 'avg_ssim': avg_ssim,
                 'state_dict': model.state_dict(),
                 'avg_tr_loss': avg_tr_loss}, savefilename)
+
+            
