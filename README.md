@@ -31,3 +31,4 @@ After training,save the checkpoint.tar file which contains the model parameter a
 
 ## Contact me
 - [CSDN BLOG-Mr.Van](https://blog.csdn.net/qq_43711697)
+- Email:zhiweifan@foxmail.com
